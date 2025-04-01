@@ -2,8 +2,10 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div className='bg-amber-300'>App</div>
+    <div className='bg-primary w-full overflow-hidden'>
+      <h1>Hello Word</h1>
+    </div>
   )
 }
 
-export default App
+export default App;
