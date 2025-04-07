@@ -16,6 +16,11 @@ const CardDeal = () => {
         </p>
       <Button styles={`mt-5 rounded-lg`}/>
       </div>
+
+      <div className={layout.sectionImg}>
+        <img src={card} alt="" className="w-full h-full"/>
+      </div>
+
     </section>
   )
 }
