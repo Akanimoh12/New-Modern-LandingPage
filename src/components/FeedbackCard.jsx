@@ -12,7 +12,7 @@ const FeedbackCard = ({content, name, title, img}) => (
         <img src={img} alt="" className='w-[48px] h-[48px] rounded-full ' />
         <div className='flex flex-col ml-4'>
           <h4 className='font-poppins text-white font-semibold text-[20px] leading-[32px]'>{name}</h4>
-          <p className='font-poppins text-white font-normal text-[18px] leading-[32px] '>{title}</p>
+          <p className='font-poppins font-normal text-[18px] leading-[32px] text-dimWhite '>{title}</p>
         </div>
       </div>
     </div>
